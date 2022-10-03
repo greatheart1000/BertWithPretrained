@@ -1,5 +1,6 @@
 # coding:utf-8
 #预训练使用的是albert的ngram mask任务来替代mlm任务，新增一个structbert里提到的word struct prediction 任务，随机打乱连续的三个词，让模型来还原这三个词。
+# 来源于 https://gitee.com/huangyongqing1997/daguan_code
 import os
 import re
 import sys
